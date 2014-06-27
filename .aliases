@@ -15,6 +15,21 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
+
+# Git. Prefer these to git aliases for brevity.
+# Use the GitHub wrapper `hub` if found.
+command -v hub &> /dev/null && alias git='hub'
+alias g='git'
+alias ga='git add'
+alias gc='git commit'
+alias gclo='git clone'
+alias gl='git pull'
+alias gp='git push'
+alias gsr='git svn rebase'
+alias gsd='git svn dcommit'
+alias gu="git reset --soft 'HEAD^'"
+alias gacp="git add .;git commit;git push"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
