@@ -1,4 +1,4 @@
-# AJ’s dotfiles
+# A.J.’s dotfiles
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
 
