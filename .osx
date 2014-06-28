@@ -722,4 +722,17 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 	"Terminal" "Transmission" "Twitter" "iCal"; do
 	killall "${app}" > /dev/null 2>&1
 done
+
+
+###############################################################################
+# A.J.'s  Implementation
+###############################################################################
+
+# Set up rvm
+curl -sSL https://get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+
+
