@@ -82,7 +82,7 @@
 	trustctime = false
 
 	# Use Sublime as the default editor
-	editor = subl
+	editor = subl -w
 
 [color]
 
