@@ -152,3 +152,7 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+	name = A.J. Norton
+	email = ajn123@vt.edu
