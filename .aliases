@@ -164,3 +164,7 @@ command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.e
 
 # shutdown
 alias shutdown="sudo shutdown -h now"
+
+
+#rlogin
+alias rlogin="ssh ajn123@rlogin.cs.vt.edu"
