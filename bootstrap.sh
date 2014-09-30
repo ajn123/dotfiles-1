@@ -4,7 +4,9 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-# git pull origin master;
+git pull origin master;
+# updates the inner submodules
+git submodule update --init --recursive
 
 function doIt() {
 	rsync --exclude "exclusions/" --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
@@ -25,6 +27,9 @@ fi;
 unset doIt;
 
 # Set to zsh
-chsh -s /bin/zsh  
+if [ $0  == "/bin/zsh" ]; then
+	echo "Switch to zsh"
+	chsh -s /bin/zsh  
+fi;
 
 
