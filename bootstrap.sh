@@ -20,3 +20,8 @@ else
 	fi;
 fi;
 unset doIt;
+
+# Set to zsh
+chsh -s /bin/zsh  
+
+
