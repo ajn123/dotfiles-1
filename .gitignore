@@ -34,3 +34,9 @@ doc/
 .DS_Store
 .idea
 .secret
+
+
+
+# for vundle
+.vim/bundle/*
+!.vim/bundle/Vundle.vim/*
