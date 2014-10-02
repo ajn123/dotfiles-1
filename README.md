@@ -9,7 +9,7 @@ such as oh-my-zsh and vundle.
 Clone and then run:
 
 ```bash
-source bootstrap.sh
+sh bootstrap.sh 
 ```
 Done!
 
