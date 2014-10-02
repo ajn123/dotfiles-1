@@ -1,8 +1,17 @@
 # A.J.’s dotfiles
 
-![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
+All credit goes to the major contributors at the bottom.  I have added my own settings
+such as oh-my-zsh and vundle.
+
 
 ## Installation
+
+Clone and then run:
+
+```bash
+source bootstrap.sh
+```
+Done!
 
 ### Using Git and the bootstrap script
 
