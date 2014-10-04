@@ -26,7 +26,6 @@ Thumbs.db
 /tmp
 
 # Ignore other unneeded files.
-database.yml
 doc/
 *.swp
 *~
