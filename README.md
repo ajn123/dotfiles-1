@@ -1,7 +1,7 @@
 # A.J.’s dotfiles
 
 All credit goes to the major contributors at the bottom.  I have added my own settings
-such as oh-my-zsh and vundle.
+such as oh-my-zsh, tmux.config, and vundle.
 
 
 ## Installation
