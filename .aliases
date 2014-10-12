@@ -168,3 +168,7 @@ alias shutdown="sudo shutdown -h now"
 
 #rlogin
 alias rlogin="ssh ajn123@rlogin.cs.vt.edu"
+
+
+#tmux
+alias tmux="TERM=screen-256color-bce tmux"
