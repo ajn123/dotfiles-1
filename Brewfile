@@ -58,6 +58,8 @@ install webkit2png
 install xpdf
 install zopfli
 
+install z
+
 install homebrew/versions/lua52
 
 # Remove outdated versions from the cellar
