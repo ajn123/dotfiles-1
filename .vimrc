@@ -50,3 +50,10 @@ syntax enable
 ""colorscheme solarized
 "#############################
 colorscheme molokai
+
+
+
+" Make all tabs spaces
+set expandtab
+set shiftwidth=2
+set softtabstop=2

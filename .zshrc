@@ -1,6 +1,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+
+# Must install 'z' plugin
+. `brew --prefix`/etc/profile.d/z.sh
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -80,16 +84,29 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
- 
+
 # -------------------------------------------------------------------
 # # Capistrano aliases
 # # -------------------------------------------------------------------
-#  
+#
    alias capd='cap deploy'
-#   
+#
 #   # -------------------------------------------------------------------
 #   # OTHER aliases
 #   # -------------------------------------------------------------------
-#    
+#
     alias cl='clear'
     alias rlogin='ssh ajn123@rlogin.cs.vt.edu'
+
+
+
+
+    function battery_charge {
+        echo `$BAT_CHARGE` 2>/dev/null
+    }
+
+
+ RPROMPT='$(battery_charge)'
+
+
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
