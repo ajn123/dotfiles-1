@@ -29,7 +29,7 @@ unset doIt;
 # Set to zsh
 if [ $0  == "/bin/zsh" ]; then
 	echo "Switch to zsh"
-	chsh -s /bin/zsh  
+	chsh -s /bin/zsh
 fi;
 
 
