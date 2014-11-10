@@ -58,6 +58,7 @@ install webkit2png
 install xpdf
 install zopfli
 install battery
+install spark
 install z
 
 install homebrew/versions/lua52
