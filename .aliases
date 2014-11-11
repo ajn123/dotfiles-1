@@ -172,3 +172,11 @@ alias rlogin="ssh ajn123@rlogin.cs.vt.edu"
 
 #tmux
 alias tmux="TERM=screen-256color-bce tmux"
+
+
+#rails
+alias r="rails"
+alias rs="rails server"
+
+#remove folder
+alias rmf="rm -rf"
