@@ -9,7 +9,7 @@ such as oh-my-zsh, tmux.config, and vundle.
 Clone and then run:
 
 ```bash
-sh bootstrap.sh 
+sh bootstrap.sh
 ```
 Done!
 
@@ -26,6 +26,22 @@ To update, `cd` into your local `dotfiles` repository and then:
 ```bash
 source bootstrap.sh
 ```
+aliases
+```bash
+mkd # make directory and enter it
+p   # Go to projects directory
+..  # Go up a directory
+... # Go up 2 directories
+.... # Go up 3 directories
+g  # git substitution
+ip # public IP address
+localip # local ip address
+reload # Reload the shell
+shutdown # shutdown the computer
+update # update various package managers
+```
+
+
 
 Alternatively, to update while avoiding the confirmation prompt:
 

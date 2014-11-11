@@ -51,7 +51,10 @@ ZSH_THEME="bira"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git battery colored-man web-search)
 
-source ~/.aliases
+for file in ~/.{path,exports,aliases,functions,extra}; do
+	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
