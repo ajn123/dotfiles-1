@@ -3,8 +3,14 @@
 remove_file 'README.doc'
 create_file 'README.md'
 
-gem 'rspec-rails'
 gem 'haml-rails'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'annotate'
+  gem 'guard-rspec'
+end
+
 run 'bundle install'
 generate 'rspec:install'
 git :init
