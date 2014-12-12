@@ -5,7 +5,7 @@ run   'touch README.md'
 
 gem 'haml-rails'
 
-group :development, :test do
+gem_group :development, :test do
   gem 'rspec-rails'
   gem 'annotate'
   gem 'guard-rspec'
