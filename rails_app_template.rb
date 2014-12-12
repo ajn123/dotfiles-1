@@ -1,7 +1,7 @@
 # For example run rails new blog -m app_template.rb
 
-remove_file 'README.doc'
-create_file 'README.md'
+run   'rm README.doc'
+run   'touch README.md'
 
 gem 'haml-rails'
 

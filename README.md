@@ -42,6 +42,12 @@ update # update various package managers
 ```
 
 
+vim
+```vim
+:Gist -b #post as gist and open browser
+```
+
+
 
 Alternatively, to update while avoiding the confirmation prompt:
 
